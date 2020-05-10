@@ -1,0 +1,19 @@
+                                                                  README
+
+The python file "role_match.py" should be in a directory where there is the 'frames' folder containing data on xml files from propbank.
+
+This file takes in 3 command line arguments 
+  - The propbank word (sing)
+  - Propbank Sense (sing.01)
+  - TRIPS Sense (SING)
+
+It is run as follows :
+ 
+	python role_match.py sing sing.01 SING
+
+
+Pre-Requisites:
+
+ - PyTrips
+ - jsontrips
+ - xml (would already be pre installed)
