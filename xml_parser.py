@@ -89,8 +89,9 @@ for word in data.keys():
 								count -= 1
 				if matched:
 					res = [str(x) for x in matches]
-					print(res+" = "+str(roleset))
-					pass#break
+					for item in res:
+						print(item+" = "+str(roleset))
+					break
 				else:
 					match = similarity/(count+0.001)
 					if match > max_match:
