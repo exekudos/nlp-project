@@ -222,7 +222,7 @@ def role_matching(a,b,c):
             else:
                 print("ARG4 is matched to {}".format(l))
                 
-tree = ET.parse( 'propbank_frames/' + word + ".xml")
+tree = ET.parse( "propbank_frames/" + word + ".xml")
 root = tree.getroot()
 a, b = parse(root , word1)
 c = trips_roles(word2)
